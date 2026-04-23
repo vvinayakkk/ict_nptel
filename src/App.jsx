@@ -7,6 +7,40 @@ import StatsCard from "./components/StatsCard";
 
 import { shuffleIndices, loadState, saveState } from "./utils";
 
+const ANSWER_GOOD_AUDIO = Object.values(import.meta.glob("./audio/good/*", { eager: true, import: "default" }));
+const ANSWER_BAD_AUDIO = Object.values(import.meta.glob("./audio/bad/*", { eager: true, import: "default" }));
+const FINAL_GOOD_AUDIO = Object.values(import.meta.glob("./final/good/*", { eager: true, import: "default" }));
+const FINAL_BAD_AUDIO = Object.values(import.meta.glob("./final/bad/*", { eager: true, import: "default" }));
+
+function pickRandomAudio(pool) {
+  if (!Array.isArray(pool) || pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function stopAudio(playerRef) {
+  if (!playerRef?.current) return;
+  try {
+    playerRef.current.pause();
+    playerRef.current.currentTime = 0;
+  } catch (err) {
+    // ignore audio stop errors
+  }
+  playerRef.current = null;
+}
+
+function playRandomAudio(pool, playerRef) {
+  const src = pickRandomAudio(pool);
+  if (!src) return;
+  stopAudio(playerRef);
+  try {
+    const audio = new Audio(src);
+    playerRef.current = audio;
+    void audio.play().catch(() => {});
+  } catch (err) {
+    // ignore audio play errors
+  }
+}
+
 // ── Dark mode hook ────────────────────────────────────────────────────────────
 function useDarkMode() {
   const [dark, setDark] = useState(() => {
@@ -309,6 +343,8 @@ export default function App() {
   const [assignmentQueue, setAssignmentQueue] = useState([]);
   const [currentAQIdx, setCurrentAQIdx] = useState(0);
   const [showManage, setShowManage] = useState(false);
+  const soundPlayerRef = useRef(null);
+  const finalSoundPlayedRef = useRef(false);
 
   // Canvas background mouse + pan/scale (used for grid + gold effect)
   const canvasBgRef = useRef(null);
@@ -344,6 +380,8 @@ export default function App() {
     const chosen = assignments && assignments.length ? assignments : selectedAssignments;
     setSelectedAssignments(chosen);
     clearInterval(timerRef.current);
+    stopAudio(soundPlayerRef);
+    finalSoundPlayedRef.current = false;
 
     let o, queue = [], aqIdx = 0;
     if (m === "assignment") {
@@ -438,6 +476,10 @@ export default function App() {
     try { localStorage.setItem("nptel_auto_advance", autoAdvance ? "1" : "0"); } catch {}
   }, [autoAdvance]);
 
+  useEffect(() => {
+    return () => stopAudio(soundPlayerRef);
+  }, []);
+
   function toggleBookmark(dataIdx) {
     setBookmarks((prev) => {
       const next = new Set(prev);
@@ -475,6 +517,7 @@ export default function App() {
     setAnswers((prev) => ({ ...prev, [qIndex]: { chosen, correct: isCorrect } }));
     setReveal(true);
     if (isCorrect) {
+      playRandomAudio(ANSWER_GOOD_AUDIO, soundPlayerRef);
       const newStreak = streak + 1;
       setStreak(newStreak);
       setMaxStreak((m) => Math.max(m, newStreak));
@@ -483,6 +526,7 @@ export default function App() {
         autoAdvanceTimer.current = setTimeout(() => next(), 1400);
       }
     } else {
+      playRandomAudio(ANSWER_BAD_AUDIO, soundPlayerRef);
       setStreak(0);
     }
   }
@@ -507,6 +551,8 @@ export default function App() {
   function restart() {
     clearTimeout(autoAdvanceTimer.current);
     clearInterval(timerRef.current);
+    stopAudio(soundPlayerRef);
+    finalSoundPlayedRef.current = false;
     setMode(null);
     setOrder([]);
     setIndex(0);
@@ -528,6 +574,8 @@ export default function App() {
     if (!bookmarkedOrder.length) return;
     clearTimeout(autoAdvanceTimer.current);
     clearInterval(timerRef.current);
+    stopAudio(soundPlayerRef);
+    finalSoundPlayedRef.current = false;
     setOrder(bookmarkedOrder);
     setAnswers({});
     setAllAnswers({});
@@ -599,6 +647,18 @@ export default function App() {
     : total;
   const finalDone = Object.keys(finalAnswers).length;
   const finalCorrect = Object.values(finalAnswers).filter((a) => a.correct).length;
+
+  useEffect(() => {
+    if (!isFinalFinish) {
+      finalSoundPlayedRef.current = false;
+      return;
+    }
+    if (finalSoundPlayedRef.current) return;
+
+    const perfectScore = finalTotal > 0 && finalCorrect === finalTotal;
+    playRandomAudio(perfectScore ? FINAL_GOOD_AUDIO : FINAL_BAD_AUDIO, soundPlayerRef);
+    finalSoundPlayedRef.current = true;
+  }, [isFinalFinish, finalCorrect, finalTotal]);
 
   return (
     <>
