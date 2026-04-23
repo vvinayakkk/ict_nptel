@@ -321,6 +321,7 @@ function Timer({ seconds }) {
 export default function App() {
   const [mode, setMode] = useState(null);
   const [order, setOrder] = useState([]);
+  const [optionOrders, setOptionOrders] = useState({});
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState({});       // current assignment only
   const [allAnswers, setAllAnswers] = useState({}); // cumulative across all assignments
@@ -376,6 +377,17 @@ export default function App() {
     return assignNums.flatMap((a) => indicesMap[a]);
   }
 
+  function buildOptionOrderMap(questionOrder, shouldShuffle) {
+    const map = {};
+    questionOrder.forEach((qIdx) => {
+      const options = data[qIdx]?.options || [];
+      map[qIdx] = shouldShuffle
+        ? shuffleIndices(options.length).map((i) => options[i])
+        : [...options];
+    });
+    return map;
+  }
+
   function startMode(m, assignments = null) {
     const chosen = assignments && assignments.length ? assignments : selectedAssignments;
     setSelectedAssignments(chosen);
@@ -392,8 +404,12 @@ export default function App() {
       o = buildOrderForMode(m, chosen);
     }
 
+    const shouldShuffleOptions = m === "random" || m === "random-within";
+    const nextOptionOrders = buildOptionOrderMap(o, shouldShuffleOptions);
+
     setMode(m);
     setOrder(o);
+    setOptionOrders(nextOptionOrders);
     setIndex(0);
     setAnswers({});
     setAllAnswers({});
@@ -403,7 +419,7 @@ export default function App() {
     setAssignmentQueue(queue);
     setCurrentAQIdx(aqIdx);
     setShowManage(false);
-    saveState({ mode: m, order: o, index: 0, answers: {}, allAnswers: {}, selectedAssignments: chosen, assignmentQueue: queue, currentAQIdx: aqIdx });
+    saveState({ mode: m, order: o, optionOrders: nextOptionOrders, index: 0, answers: {}, allAnswers: {}, selectedAssignments: chosen, assignmentQueue: queue, currentAQIdx: aqIdx });
   }
 
   function goToNextAssignment() {
@@ -425,6 +441,7 @@ export default function App() {
     setAllAnswers(merged);
     setCurrentAQIdx(nextIdx);
     setOrder(nextOrder);
+    setOptionOrders(buildOptionOrderMap(nextOrder, false));
     setIndex(0);
     setAnswers({});
     setReveal(false);
@@ -458,6 +475,12 @@ export default function App() {
       if (s.allAnswers && typeof s.allAnswers === "object") setAllAnswers(s.allAnswers);
       setMode(s.mode);
       setOrder(s.order);
+      if (s.optionOrders && typeof s.optionOrders === "object") {
+        setOptionOrders(s.optionOrders);
+      } else {
+        const shouldShuffleOptions = s.mode === "random" || s.mode === "random-within";
+        setOptionOrders(buildOptionOrderMap(s.order, shouldShuffleOptions));
+      }
       setIndex(Math.min(s.index || 0, s.order.length - 1));
       setAnswers(s.answers || {});
     } else {
@@ -469,8 +492,8 @@ export default function App() {
 
   useEffect(() => {
     if (!hydrated || !mode) return;
-    saveState({ mode, order, index, answers, allAnswers, selectedAssignments, assignmentQueue, currentAQIdx });
-  }, [mode, order, index, answers, allAnswers, selectedAssignments, assignmentQueue, currentAQIdx, hydrated]);
+    saveState({ mode, order, optionOrders, index, answers, allAnswers, selectedAssignments, assignmentQueue, currentAQIdx });
+  }, [mode, order, optionOrders, index, answers, allAnswers, selectedAssignments, assignmentQueue, currentAQIdx, hydrated]);
 
   useEffect(() => {
     try { localStorage.setItem("nptel_auto_advance", autoAdvance ? "1" : "0"); } catch {}
@@ -510,6 +533,7 @@ export default function App() {
 
   const qIndex = order[index];
   const current = data[qIndex];
+  const currentOptions = optionOrders[qIndex] || current?.options || [];
 
   function handleAnswer(chosen) {
     if (!current || (answers[qIndex] && answers[qIndex].chosen != null)) return;
@@ -555,6 +579,7 @@ export default function App() {
     finalSoundPlayedRef.current = false;
     setMode(null);
     setOrder([]);
+    setOptionOrders({});
     setIndex(0);
     setAnswers({});
     setAllAnswers({});
@@ -577,6 +602,7 @@ export default function App() {
     stopAudio(soundPlayerRef);
     finalSoundPlayedRef.current = false;
     setOrder(bookmarkedOrder);
+    setOptionOrders(buildOptionOrderMap(bookmarkedOrder, true));
     setAnswers({});
     setAllAnswers({});
     setFinished(false);
@@ -591,8 +617,8 @@ export default function App() {
 
   function answerByIndex(optIdx) {
     const alreadyAnswered = answers[qIndex] && answers[qIndex].chosen != null;
-    if (current && Array.isArray(current.options) && current.options[optIdx] != null && !reveal && !alreadyAnswered) {
-      handleAnswer(current.options[optIdx]);
+    if (current && Array.isArray(currentOptions) && currentOptions[optIdx] != null && !reveal && !alreadyAnswered) {
+      handleAnswer(currentOptions[optIdx]);
     }
   }
 
@@ -761,6 +787,7 @@ export default function App() {
                     const allNums = Object.keys(indicesMap).map(Number).sort((x, y) => x - y);
                     const flatOrder = allNums.flatMap((a) => indicesMap[a]);
                     setOrder(flatOrder);
+                    setOptionOrders(buildOptionOrderMap(flatOrder, false));
                     setAnswers(finalAnswers);
                     setAllAnswers({});
                     setAssignmentQueue([]);
@@ -789,6 +816,7 @@ export default function App() {
 
                 <QuestionCard
                   qitem={current}
+                  displayOptions={currentOptions}
                   onAnswer={handleAnswer}
                   answered={answers[qIndex]}
                   reveal={reveal}

@@ -1,5 +1,6 @@
 export default function QuestionCard({
   qitem,
+  displayOptions,
   onAnswer,
   answered, // { chosen, correct } or undefined
   reveal,
@@ -7,6 +8,9 @@ export default function QuestionCard({
   onToggleBookmark,
 }) {
   const isAnswered = Boolean(answered && answered.chosen != null);
+  const optionsToRender = Array.isArray(displayOptions) && displayOptions.length
+    ? displayOptions
+    : qitem.options;
   return (
     <div className="card" aria-live="polite">
       <div className="q-top">
@@ -26,7 +30,7 @@ export default function QuestionCard({
       <div className="question" dangerouslySetInnerHTML={{ __html: qitem.question }} />
 
       <div className="options">
-        {qitem.options.map((opt, i) => {
+        {optionsToRender.map((opt, i) => {
           const isChosen = answered && answered.chosen === opt;
           const isCorrect = qitem.correctAnswer === opt;
           let cls = "option";
