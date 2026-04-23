@@ -1,0 +1,109 @@
+Q1
+
+“ShareAlike” condition ensures:
+
+A. Noncommercial usage only
+B. Author attribution required
+C. No modification allowed
+D. Identical license continuation
+
+✅ Official Answer: D — Identical license continuation
+
+Q2
+
+Which license forbids creation of derivatives?
+
+A. CC BY-SA
+B. CC BY-ND
+C. CC BY-NC
+D. CC BY
+
+✅ Official Answer: B — CC BY-ND
+
+Q3
+
+Mentimeter is best used for:
+
+A. Live student engagement
+B. Recording video lectures
+C. Designing textbooks digitally
+D. Managing online attendance
+
+✅ Official Answer: A — Live student engagement
+
+Q4
+
+Google Classroom primarily functions as:
+
+A. Content creation software
+B. Video conferencing tool
+C. Learning management system
+D. Assessment scoring system
+
+✅ Official Answer: C — Learning management system
+
+Q5
+
+Reliable internet connectivity is essential for:
+
+A. Classroom seating arrangement
+B. Traditional lesson planning
+C. Offline content delivery
+D. Accessing online resources
+
+✅ Official Answer: D — Accessing online resources
+
+Q6
+
+Assistive technologies in smart classrooms support:
+
+A. High-achieving learners
+B. Administrative operations
+C. Students with special needs
+D. Teacher performance evaluation
+
+✅ Official Answer: C — Students with special needs
+
+Q7
+
+Video lectures in SWAYAM belong to the:
+
+A. Third learning quadrant
+B. First learning quadrant
+C. Second learning quadrant
+D. Fourth learning quadrant
+
+✅ Official Answer: B — First learning quadrant
+
+Q8
+
+Downloadable PDFs and readings are part of:
+
+A. Video lecture quadrant
+B. Discussion forum
+C. E-content quadrant
+D. Self-assessment tools
+
+✅ Official Answer: C — E-content quadrant
+
+Q9
+
+Digital learning promotes flexibility mainly through:
+
+A. Mandatory attendance
+B. Uniform learning pace
+C. Fixed academic schedules
+D. Self-paced education
+
+✅ Official Answer: D — Self-paced education
+
+Q10
+
+NETF aims to build capacity by:
+
+A. Promoting research
+B. Centralizing administration
+C. Standardizing textbooks
+D. Limiting innovation
+
+✅ Official Answer: A — Promoting research

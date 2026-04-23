@@ -1,0 +1,1323 @@
+[
+  {
+    "assignment": 1,
+    "question": "Which of the following is a core component of Educational Technology?",
+    "options": [
+      "Classroom discipline",
+      "Hardware resources",
+      "Moral instruction",
+      "Examination schedules"
+    ],
+    "correctAnswer": "Hardware resources"
+  },
+  {
+    "assignment": 1,
+    "question": "NEP 2020 emphasizes which mode to handle future educational disruptions?",
+    "options": [
+      "Exclusive classroom teaching",
+      "Complete distance education",
+      "Online and digital education",
+      "Informal community learning"
+    ],
+    "correctAnswer": "Online and digital education"
+  },
+  {
+    "assignment": 1,
+    "question": "Programmed instruction in the early 20th century was primarily influenced by:",
+    "options": [
+      "Cognitive learning theory",
+      "Behaviourist learning theory",
+      "Constructivist learning theory",
+      "Humanistic learning theory"
+    ],
+    "correctAnswer": "Behaviourist learning theory"
+  },
+  {
+    "assignment": 1,
+    "question": "The learner-centred nature of Educational Technology mainly emphasizes:",
+    "options": [
+      "Teacher authority in instruction",
+      "Uniform curriculum delivery",
+      "Centralized classroom control",
+      "Individual learner needs and styles"
+    ],
+    "correctAnswer": "Individual learner needs and styles"
+  },
+  {
+    "assignment": 1,
+    "question": "Asynchronous learning mainly allows learners to:",
+    "options": [
+      "Learn at their own pace and schedule",
+      "Interact only in real time",
+      "Depend on classroom instruction",
+      "Receive immediate verbal feedback"
+    ],
+    "correctAnswer": "Learn at their own pace and schedule"
+  },
+  {
+    "assignment": 1,
+    "question": "Experiential instructional strategies primarily emphasize:",
+    "options": [
+      "Learning through textbooks",
+      "Learning through lectures",
+      "Learning through direct experience",
+      "Learning through examinations"
+    ],
+    "correctAnswer": "Learning through direct experience"
+  },
+  {
+    "assignment": 1,
+    "question": "Interactive media such as simulations and educational games mainly support:",
+    "options": [
+      "Passive content delivery",
+      "Administrative efficiency",
+      "Traditional examination systems",
+      "Active learner engagement"
+    ],
+    "correctAnswer": "Active learner engagement"
+  },
+  {
+    "assignment": 1,
+    "question": "Group discussions, debates, and peer teaching are examples of:",
+    "options": [
+      "Direct instructional strategies",
+      "Indirect instructional strategies",
+      "Interactive instructional strategies",
+      "Independent instructional strategies"
+    ],
+    "correctAnswer": "Interactive instructional strategies"
+  },
+  {
+    "assignment": 1,
+    "question": "Adaptive learning technologies primarily focus on:",
+    "options": [
+      "Uniform curriculum delivery",
+      "Personalized learning pathways",
+      "Group-based instruction",
+      "Teacher-centered assessment"
+    ],
+    "correctAnswer": "Personalized learning pathways"
+  },
+  {
+    "assignment": 1,
+    "question": "Gamification in education primarily uses:",
+    "options": [
+      "Game elements to motivate learner",
+      "Printed worksheets and manuals",
+      "Teacher-led lecture methods",
+      "Traditional examination systems"
+    ],
+    "correctAnswer": "Game elements to motivate learner"
+  },
+  {
+    "assignment": 2,
+    "question": "The Personalized System of Instruction (PSI) was developed by:",
+    "options": [
+      "Fred S. Keller",
+      "B. F. Skinner",
+      "Robert Gagné",
+      "Benjamin Bloom"
+    ],
+    "correctAnswer": "Fred S. Keller"
+  },
+  {
+    "assignment": 2,
+    "question": "In the Indian context, flipped classrooms align well with:",
+    "options": [
+      "Gurukul system",
+      "e-learning platforms",
+      "Traditional chalk-and-talk",
+      "Examination reforms only"
+    ],
+    "correctAnswer": "e-learning platforms"
+  },
+  {
+    "assignment": 2,
+    "question": "Using YouTube tutorials to learn skills is an example of:",
+    "options": [
+      "Formal mobile learning",
+      "Work-based learning",
+      "Informal mobile learning",
+      "Context-aware learning"
+    ],
+    "correctAnswer": "Informal mobile learning"
+  },
+  {
+    "assignment": 2,
+    "question": "The future of blended learning is expected to be strengthened by:",
+    "options": [
+      "Printed textbooks",
+      "Chalk-and-talk method",
+      "Annual examinations",
+      "AI, VR, and AR"
+    ],
+    "correctAnswer": "AI, VR, and AR"
+  },
+  {
+    "assignment": 2,
+    "question": "In a flipped classroom, instructional content is delivered:",
+    "options": [
+      "Before class resources",
+      "During class lectures",
+      "Through group discussion",
+      "Only through textbooks"
+    ],
+    "correctAnswer": "Before class resources"
+  },
+  {
+    "assignment": 2,
+    "question": "Learning Management Systems (LMS) are mainly used to:",
+    "options": [
+      "Replace teachers",
+      "Conduct final exams",
+      "Personalize learning",
+      "Increase workload"
+    ],
+    "correctAnswer": "Personalize learning"
+  },
+  {
+    "assignment": 2,
+    "question": "The key feature that distinguishes mobile learning from e-learning is:",
+    "options": [
+      "Multimedia use",
+      "Online content",
+      "Teacher supervision",
+      "Mobility of the learner"
+    ],
+    "correctAnswer": "Mobility of the learner"
+  },
+  {
+    "assignment": 2,
+    "question": "Which learning theory strongly supports flipped classrooms?",
+    "options": [
+      "Constructivism",
+      "Behaviourism",
+      "Associationism",
+      "Connectionism"
+    ],
+    "correctAnswer": "Constructivism"
+  },
+  {
+    "assignment": 2,
+    "question": "Which of the following is the core principle of PSI?",
+    "options": [
+      "Group learning",
+      "Fixed schedule",
+      "Mastery learning",
+      "Competitive ranking"
+    ],
+    "correctAnswer": "Mastery learning"
+  },
+  {
+    "assignment": 2,
+    "question": "The Flipped Classroom belongs to which blended learning model?",
+    "options": [
+      "Flex model",
+      "Rotation model",
+      "Self-blended model",
+      "Enriched virtual model"
+    ],
+    "correctAnswer": "Rotation model"
+  },
+  {
+    "assignment": 3,
+    "question": "Teachers, curriculum, infrastructure, and funds are classified as:",
+    "options": [
+      "Inputs",
+      "Outputs",
+      "Feedback",
+      "Environment"
+    ],
+    "correctAnswer": "Inputs"
+  },
+  {
+    "assignment": 3,
+    "question": "Dale's Cone of Experience was proposed in:",
+    "options": [
+      "1930",
+      "1940",
+      "1946",
+      "1956"
+    ],
+    "correctAnswer": "1946"
+  },
+  {
+    "assignment": 3,
+    "question": "Which device provides immersive learning?",
+    "options": [
+      "VR",
+      "TV",
+      "Radio",
+      "Printer"
+    ],
+    "correctAnswer": "VR"
+  },
+  {
+    "assignment": 3,
+    "question": "Which of the following is NOT an input in the systems approach?",
+    "options": [
+      "Learners",
+      "Content",
+      "Evaluation",
+      "Resources"
+    ],
+    "correctAnswer": "Evaluation"
+  },
+  {
+    "assignment": 3,
+    "question": "Which device is commonly used for real-time polling in classrooms?",
+    "options": [
+      "Tablet",
+      "Clicker",
+      "Printer",
+      "Scanner"
+    ],
+    "correctAnswer": "Clicker"
+  },
+  {
+    "assignment": 3,
+    "question": "Teacher training programs like NISHTHA aim at:",
+    "options": [
+      "Student enrolment",
+      "Teacher capacity building",
+      "Curriculum reduction",
+      "School inspection"
+    ],
+    "correctAnswer": "Teacher capacity building"
+  },
+  {
+    "assignment": 3,
+    "question": "Instructional methods and administrative functions belong to:",
+    "options": [
+      "Inputs",
+      "Outputs",
+      "Processes",
+      "Environment"
+    ],
+    "correctAnswer": "Processes"
+  },
+  {
+    "assignment": 3,
+    "question": "Multi-sensory instruction is based on which theory?",
+    "options": [
+      "Behaviorism",
+      "Constructivism",
+      "Trial and error",
+      "Drill and practice"
+    ],
+    "correctAnswer": "Constructivism"
+  },
+  {
+    "assignment": 3,
+    "question": "Subject-specific software like GeoGebra is used for:",
+    "options": [
+      "Language learning",
+      "Mathematics learning",
+      "Administrative work",
+      "Attendance tracking"
+    ],
+    "correctAnswer": "Mathematics learning"
+  },
+  {
+    "assignment": 3,
+    "question": "ADDIE model stands for:",
+    "options": [
+      "Analyze, Design, Develop, Implement, Evaluate",
+      "Apply, Develop, Design, Implement, Execute",
+      "Analyze, Develop, Deliver, Inspect, Execute",
+      "Assess, Design, Deliver, Inspect, Evaluate"
+    ],
+    "correctAnswer": "Analyze, Design, Develop, Implement, Evaluate"
+  },
+  {
+    "assignment": 4,
+    "question": "Decoding is the process of:",
+    "options": [
+      "Interpreting received symbols",
+      "Sending messages effectively",
+      "Selecting appropriate media",
+      "Organizing communication content"
+    ],
+    "correctAnswer": "Interpreting received symbols"
+  },
+  {
+    "assignment": 4,
+    "question": "Semantic barriers are related to:",
+    "options": [
+      "Technological access issues",
+      "Emotional imbalance problems",
+      "Physical environment factors",
+      "Language and meaning issues"
+    ],
+    "correctAnswer": "Language and meaning issues"
+  },
+  {
+    "assignment": 4,
+    "question": "Smart devices like Amazon Echo facilitate communication using:",
+    "options": [
+      "Manual data entry",
+      "Voice-based commands",
+      "Visual-only controls",
+      "Text-only interfaces"
+    ],
+    "correctAnswer": "Voice-based commands"
+  },
+  {
+    "assignment": 4,
+    "question": "Learning Management Systems mainly support communication by:",
+    "options": [
+      "Enabling flexible interaction",
+      "Limiting feedback mechanisms",
+      "Restricting access to content",
+      "Reducing teacher involvement"
+    ],
+    "correctAnswer": "Enabling flexible interaction"
+  },
+  {
+    "assignment": 4,
+    "question": "Feedback interaction helps students to:",
+    "options": [
+      "Avoid academic evaluation",
+      "Delay performance review",
+      "Reduce classroom engagement",
+      "Improve learning outcomes"
+    ],
+    "correctAnswer": "Improve learning outcomes"
+  },
+  {
+    "assignment": 4,
+    "question": "Flanders Interaction Analysis System focuses mainly on analysing:",
+    "options": [
+      "Non-verbal classroom behaviour",
+      "Written instructional materials",
+      "Verbal classroom interaction",
+      "Student assessment outcomes"
+    ],
+    "correctAnswer": "Verbal classroom interaction"
+  },
+  {
+    "assignment": 4,
+    "question": "End-to-end encryption in messaging apps ensures:",
+    "options": [
+      "Public data visibility",
+      "Secure information",
+      "Unlimited data storage",
+      "Faster message delivery"
+    ],
+    "correctAnswer": "Secure information"
+  },
+  {
+    "assignment": 4,
+    "question": "Peer communication among students mainly develops:",
+    "options": [
+      "Disciplinary awareness",
+      "Examination performance",
+      "Memorization skills",
+      "Collaboration abilities"
+    ],
+    "correctAnswer": "Collaboration abilities"
+  },
+  {
+    "assignment": 4,
+    "question": "Physical barriers primarily relate to:",
+    "options": [
+      "Environmental and tangible factors",
+      "Emotional and mental states",
+      "Cultural belief systems",
+      "Language interpretation differences"
+    ],
+    "correctAnswer": "Environmental and tangible factors"
+  },
+  {
+    "assignment": 4,
+    "question": "Non-verbal interaction in classrooms includes:",
+    "options": [
+      "Lectures and discussions",
+      "Gestures and eye contact",
+      "Textbooks and handouts",
+      "Assignments and tests"
+    ],
+    "correctAnswer": "Gestures and eye contact"
+  },
+  {
+    "assignment": 5,
+    "question": "Mukta Vidya Vani is an example of:",
+    "options": [
+      "Virtual laboratory",
+      "Educational web radio",
+      "Online examination system",
+      "Video streaming platform"
+    ],
+    "correctAnswer": "Educational web radio"
+  },
+  {
+    "assignment": 5,
+    "question": "Which platform supports teacher training and digital content sharing?",
+    "options": [
+      "Mukta Vidya Vani",
+      "IITPAL",
+      "DIKSHA",
+      "SWAYAM Prabha"
+    ],
+    "correctAnswer": "DIKSHA"
+  },
+  {
+    "assignment": 5,
+    "question": "One major achievement of PM e-Vidya is:",
+    "options": [
+      "Teacher replacement",
+      "Reduced syllabus",
+      "Increased private schooling",
+      "Reaching remote learners"
+    ],
+    "correctAnswer": "Reaching remote learners"
+  },
+  {
+    "assignment": 5,
+    "question": "The most restrictive Creative Commons license is:",
+    "options": [
+      "CC BY-NC-ND",
+      "CC BY-SA",
+      "CC BY-NC",
+      "CC BY"
+    ],
+    "correctAnswer": "CC BY-NC-ND"
+  },
+  {
+    "assignment": 5,
+    "question": "Using OER in classrooms or online platforms without modification is called:",
+    "options": [
+      "Remix",
+      "Revise",
+      "Retain",
+      "Reuse"
+    ],
+    "correctAnswer": "Reuse"
+  },
+  {
+    "assignment": 5,
+    "question": "The term \"Open Educational Resources\" was first introduced by:",
+    "options": [
+      "UNESCO",
+      "World Bank",
+      "Creative Commons",
+      "OECD"
+    ],
+    "correctAnswer": "UNESCO"
+  },
+  {
+    "assignment": 5,
+    "question": "Hands-on activities are emphasized in which phase of the 5E model?",
+    "options": [
+      "Explain",
+      "Engage",
+      "Explore",
+      "Evaluate"
+    ],
+    "correctAnswer": "Explore"
+  },
+  {
+    "assignment": 5,
+    "question": "Which principle ensures learning through smartphones?",
+    "options": [
+      "Student tracking",
+      "Mobile accessibility",
+      "Instructional design",
+      "Social integration"
+    ],
+    "correctAnswer": "Mobile accessibility"
+  },
+  {
+    "assignment": 5,
+    "question": "One major advantage of ICT is:",
+    "options": [
+      "Reduced human interaction",
+      "Increased social isolation",
+      "High financial dependency",
+      "Global communication reach"
+    ],
+    "correctAnswer": "Global communication reach"
+  },
+  {
+    "assignment": 5,
+    "question": "Shiksha Vani Podcast targets students of classes:",
+    "options": [
+      "6-8",
+      "UG",
+      "9-12",
+      "1-5"
+    ],
+    "correctAnswer": "9-12"
+  },
+  {
+    "assignment": 6,
+    "question": "\"ShareAlike\" condition ensures:",
+    "options": [
+      "Noncommercial usage only",
+      "Author attribution required",
+      "No modification allowed",
+      "Identical license continuation"
+    ],
+    "correctAnswer": "Identical license continuation"
+  },
+  {
+    "assignment": 6,
+    "question": "Which license forbids creation of derivatives?",
+    "options": [
+      "CC BY-SA",
+      "CC BY-ND",
+      "CC BY-NC",
+      "CC BY"
+    ],
+    "correctAnswer": "CC BY-ND"
+  },
+  {
+    "assignment": 6,
+    "question": "Mentimeter is best used for:",
+    "options": [
+      "Live student engagement",
+      "Recording video lectures",
+      "Designing textbooks digitally",
+      "Managing online attendance"
+    ],
+    "correctAnswer": "Live student engagement"
+  },
+  {
+    "assignment": 6,
+    "question": "Google Classroom primarily functions as:",
+    "options": [
+      "Content creation software",
+      "Video conferencing tool",
+      "Learning management system",
+      "Assessment scoring system"
+    ],
+    "correctAnswer": "Learning management system"
+  },
+  {
+    "assignment": 6,
+    "question": "Reliable internet connectivity is essential for:",
+    "options": [
+      "Classroom seating arrangement",
+      "Traditional lesson planning",
+      "Offline content delivery",
+      "Accessing online resources"
+    ],
+    "correctAnswer": "Accessing online resources"
+  },
+  {
+    "assignment": 6,
+    "question": "Assistive technologies in smart classrooms support:",
+    "options": [
+      "High-achieving learners",
+      "Administrative operations",
+      "Students with special needs",
+      "Teacher performance evaluation"
+    ],
+    "correctAnswer": "Students with special needs"
+  },
+  {
+    "assignment": 6,
+    "question": "Video lectures in SWAYAM belong to the:",
+    "options": [
+      "Third learning quadrant",
+      "First learning quadrant",
+      "Second learning quadrant",
+      "Fourth learning quadrant"
+    ],
+    "correctAnswer": "First learning quadrant"
+  },
+  {
+    "assignment": 6,
+    "question": "Downloadable PDFs and readings are part of:",
+    "options": [
+      "Video lecture quadrant",
+      "Discussion forum",
+      "E-content quadrant",
+      "Self-assessment tools"
+    ],
+    "correctAnswer": "E-content quadrant"
+  },
+  {
+    "assignment": 6,
+    "question": "Digital learning promotes flexibility mainly through:",
+    "options": [
+      "Mandatory attendance",
+      "Uniform learning pace",
+      "Fixed academic schedules",
+      "Self-paced education"
+    ],
+    "correctAnswer": "Self-paced education"
+  },
+  {
+    "assignment": 6,
+    "question": "NETF aims to build capacity by:",
+    "options": [
+      "Promoting research",
+      "Centralizing administration",
+      "Standardizing textbooks",
+      "Limiting innovation"
+    ],
+    "correctAnswer": "Promoting research"
+  },
+  {
+    "assignment": 7,
+    "question": "Non-formal education is defined as:",
+    "options": [
+      "Organized learning outside schools",
+      "Learning through daily experiences",
+      "Classroom learning with fixed syllabus",
+      "Learning only within institutions"
+    ],
+    "correctAnswer": "Organized learning outside schools"
+  },
+  {
+    "assignment": 7,
+    "question": "Gamification in education means:",
+    "options": [
+      "Playing games for entertainment",
+      "Avoiding tests during lessons",
+      "Applying game elements in learning",
+      "Using games instead of lessons"
+    ],
+    "correctAnswer": "Applying game elements in learning"
+  },
+  {
+    "assignment": 7,
+    "question": "One key difference between formal and non-formal education is:",
+    "options": [
+      "Presence of trained teachers",
+      "Use of printed textbooks",
+      "Methods of evaluation used",
+      "Level of learner autonomy"
+    ],
+    "correctAnswer": "Level of learner autonomy"
+  },
+  {
+    "assignment": 7,
+    "question": "Digital libraries in ODL provide:",
+    "options": [
+      "Storage of printed books",
+      "Distribution of printed notes",
+      "Access to online resources",
+      "Provision of classroom furniture"
+    ],
+    "correctAnswer": "Access to online resources"
+  },
+  {
+    "assignment": 7,
+    "question": "Platforms such as SWAYAM and Coursera primarily support:",
+    "options": [
+      "Credential-based formal programs",
+      "Informal and lifelong learning",
+      "Therapeutic support services",
+      "Compulsory school education"
+    ],
+    "correctAnswer": "Informal and lifelong learning"
+  },
+  {
+    "assignment": 7,
+    "question": "A developmental portfolio is best characterized by:",
+    "options": [
+      "Storage of institutional records",
+      "Reporting of standardized grades",
+      "Presentation of final products",
+      "Continuous documentation of progress"
+    ],
+    "correctAnswer": "Continuous documentation of progress"
+  },
+  {
+    "assignment": 7,
+    "question": "One major advantage of online quizzes in LMS platforms is:",
+    "options": [
+      "Automated feedback and analytics",
+      "Requirement of manual grading",
+      "Reduction of learner engagement",
+      "Limitation of question formats"
+    ],
+    "correctAnswer": "Automated feedback and analytics"
+  },
+  {
+    "assignment": 7,
+    "question": "Virtual Reality (VR) differs from AR primarily because VR:",
+    "options": [
+      "Depends on printed learning materials",
+      "Uses mobile devices for display",
+      "Provides fully immersive environments",
+      "Cannot be applied in education"
+    ],
+    "correctAnswer": "Provides fully immersive environments"
+  },
+  {
+    "assignment": 7,
+    "question": "Extended Reality (XR) is a term used to describe:",
+    "options": [
+      "Artificial intelligence platforms",
+      "Only virtual reality environments",
+      "Only augmented reality systems",
+      "Spectrum of immersive technologies"
+    ],
+    "correctAnswer": "Spectrum of immersive technologies"
+  },
+  {
+    "assignment": 7,
+    "question": "360 degree immersive video differs from true VR because it:",
+    "options": [
+      "Lacks full environmental immersion",
+      "Cannot display motion images",
+      "Requires no visual display",
+      "Is unrelated to virtual reality"
+    ],
+    "correctAnswer": "Lacks full environmental immersion"
+  }
+  ,
+  {
+    "assignment": 8,
+    "question": "Contextual learning means:",
+    "options": [
+      "Real life links",
+      "Abstract theory",
+      "Fixed syllabus",
+      "Random topics"
+    ],
+    "correctAnswer": "Real life links"
+  },
+  {
+    "assignment": 8,
+    "question": "CIET stands for:",
+    "options": [
+      "Council of Indian Educational Training",
+      "Commission for Information and Education",
+      "Centre for Innovative Educational Technology",
+      "Central Institute of Educational Technology"
+    ],
+    "correctAnswer": "Central Institute of Educational Technology"
+  },
+  {
+    "assignment": 8,
+    "question": "Teleconferencing primarily enables:",
+    "options": [
+      "Written reports",
+      "Remote interaction",
+      "Printed notes",
+      "Local meetings"
+    ],
+    "correctAnswer": "Remote interaction"
+  },
+  {
+    "assignment": 8,
+    "question": "BigBlueButton is mainly:",
+    "options": [
+      "Antivirus tool",
+      "Banking software",
+      "Open source tool",
+      "Gaming platform"
+    ],
+    "correctAnswer": "Open source tool"
+  },
+  {
+    "assignment": 8,
+    "question": "Speech recognition enables:",
+    "options": [
+      "File copying",
+      "Live captions",
+      "Data printing",
+      "Faster typing"
+    ],
+    "correctAnswer": "Live captions"
+  },
+  {
+    "assignment": 8,
+    "question": "Simulations in education primarily provide:",
+    "options": [
+      "Passive learning",
+      "Static content",
+      "Pure entertainment",
+      "Realistic practice"
+    ],
+    "correctAnswer": "Realistic practice"
+  },
+  {
+    "assignment": 8,
+    "question": "EMRC programs are broadcast on:",
+    "options": [
+      "Gyan Darshan",
+      "AIR News",
+      "DD Sports",
+      "FM Gold"
+    ],
+    "correctAnswer": "Gyan Darshan"
+  },
+  {
+    "assignment": 8,
+    "question": "NISHTHA focuses on:",
+    "options": [
+      "Student transport",
+      "Teacher development",
+      "Exam fees",
+      "Lab safety"
+    ],
+    "correctAnswer": "Teacher development"
+  },
+  {
+    "assignment": 8,
+    "question": "SWAYAM PRABHA uses:",
+    "options": [
+      "Print media",
+      "Newspapers",
+      "FM radio",
+      "DTH channels"
+    ],
+    "correctAnswer": "DTH channels"
+  },
+  {
+    "assignment": 8,
+    "question": "Google Forms primary function is:",
+    "options": [
+      "Video editing",
+      "Code development",
+      "Creating surveys and quizzes",
+      "Graphic design"
+    ],
+    "correctAnswer": "Creating surveys and quizzes"
+  },
+  {
+    "assignment": 9,
+    "question": "CD-ROMs were mainly used for:",
+    "options": [
+      "Video conferencing",
+      "Cloud storage",
+      "Offline multimedia content",
+      "Live communication"
+    ],
+    "correctAnswer": "Offline multimedia content"
+  },
+  {
+    "assignment": 9,
+    "question": "Virtual Reality in education provides:",
+    "options": [
+      "Printed learning",
+      "Immersive learning",
+      "Audio recording",
+      "Static diagrams"
+    ],
+    "correctAnswer": "Immersive learning"
+  },
+  {
+    "assignment": 9,
+    "question": "Robotics education mainly develops:",
+    "options": [
+      "Dictation skills",
+      "Memorization",
+      "STEM skills",
+      "Handwriting"
+    ],
+    "correctAnswer": "STEM skills"
+  },
+  {
+    "assignment": 9,
+    "question": "Coding platforms mainly develop:",
+    "options": [
+      "Logical thinking",
+      "Drawing skills",
+      "Singing skills",
+      "Typing speed"
+    ],
+    "correctAnswer": "Logical thinking"
+  },
+  {
+    "assignment": 9,
+    "question": "The World Wide Web was developed by:",
+    "options": [
+      "Bill Gates",
+      "Vint Cerf",
+      "Steve Jobs",
+      "Tim Berners-Lee"
+    ],
+    "correctAnswer": "Tim Berners-Lee"
+  },
+  {
+    "assignment": 9,
+    "question": "Broadband Internet mainly improves:",
+    "options": [
+      "Storage size",
+      "Hardware life",
+      "Printing quality",
+      "Speed and access"
+    ],
+    "correctAnswer": "Speed and access"
+  },
+  {
+    "assignment": 9,
+    "question": "Cyberbullying means:",
+    "options": [
+      "Classroom punishment",
+      "Online harassment",
+      "Printed threats",
+      "Telephone misuse"
+    ],
+    "correctAnswer": "Online harassment"
+  },
+  {
+    "assignment": 9,
+    "question": "Smartboards are used for:",
+    "options": [
+      "Interactive teaching",
+      "Printing",
+      "Storage",
+      "Repair work"
+    ],
+    "correctAnswer": "Interactive teaching"
+  },
+  {
+    "assignment": 9,
+    "question": "Prezi is known for:",
+    "options": [
+      "Audio recording",
+      "Spreadsheet tools",
+      "File compression",
+      "Presentations"
+    ],
+    "correctAnswer": "Presentations"
+  },
+  {
+    "assignment": 9,
+    "question": "OCR tools are used for:",
+    "options": [
+      "Video editing",
+      "Text recognition",
+      "File compression",
+      "Programming"
+    ],
+    "correctAnswer": "Text recognition"
+  },
+  {
+    "assignment": 10,
+    "question": "NIEPA mainly focuses on:",
+    "options": [
+      "Medical education training",
+      "Educational planning, management",
+      "Mechanical engineering studies",
+      "Software programming courses"
+    ],
+    "correctAnswer": "Educational planning, management"
+  },
+  {
+    "assignment": 10,
+    "question": "IGNOU contributes to teacher education mainly through:",
+    "options": [
+      "Distance learning programmes",
+      "Laboratory training courses",
+      "School inspection services",
+      "Curriculum printing services"
+    ],
+    "correctAnswer": "Distance learning programmes"
+  },
+  {
+    "assignment": 10,
+    "question": "Continuous Professional Development (CPD) means:",
+    "options": [
+      "One-time training programme",
+      "Annual examination system",
+      "Fixed curriculum training",
+      "Ongoing professional learning"
+    ],
+    "correctAnswer": "Ongoing professional learning"
+  },
+  {
+    "assignment": 10,
+    "question": "Immediate response analysis in CAI helps in:",
+    "options": [
+      "Delaying learner feedback",
+      "Correcting learner errors",
+      "Skipping difficult lessons",
+      "Avoiding performance review"
+    ],
+    "correctAnswer": "Correcting learner errors"
+  },
+  {
+    "assignment": 10,
+    "question": "Behaviorism supports CAI through:",
+    "options": [
+      "Observational learning only",
+      "Memorization without feedback",
+      "Reinforcement of responses",
+      "Lecture-based instruction"
+    ],
+    "correctAnswer": "Reinforcement of responses"
+  },
+  {
+    "assignment": 10,
+    "question": "CML systems mainly depend on:",
+    "options": [
+      "Student record databases",
+      "Chalkboard teaching methods",
+      "Printed record registers",
+      "Manual typewriter entries"
+    ],
+    "correctAnswer": "Student record databases"
+  },
+  {
+    "assignment": 10,
+    "question": "The Personalized System of Instruction (PSI) was developed by:",
+    "options": [
+      "Fred S. Keller",
+      "B. F. Skinner",
+      "Robert Gagné",
+      "Benjamin Bloom"
+    ],
+    "correctAnswer": "Fred S. Keller"
+  },
+  {
+    "assignment": 10,
+    "question": "In the Indian context, flipped classrooms align well with:",
+    "options": [
+      "Gurukul system",
+      "e-learning platforms",
+      "Traditional chalk-and-talk",
+      "Examination reforms only"
+    ],
+    "correctAnswer": "e-learning platforms"
+  },
+  {
+    "assignment": 10,
+    "question": "Using YouTube tutorials to learn skills is an example of:",
+    "options": [
+      "Formal mobile learning",
+      "Work-based learning",
+      "Informal mobile learning",
+      "Context-aware learning"
+    ],
+    "correctAnswer": "Informal mobile learning"
+  },
+  {
+    "assignment": 10,
+    "question": "The future of blended learning is expected to be strengthened by:",
+    "options": [
+      "Printed textbooks",
+      "Chalk-and-talk method",
+      "Annual examinations",
+      "AI, VR, and AR"
+    ],
+    "correctAnswer": "AI, VR, and AR"
+  },
+  {
+    "assignment": 11,
+    "question": "DIKSHA portal is primarily designed for:",
+    "options": [
+      "Banking skill training",
+      "Teacher learning resources",
+      "Industrial training courses",
+      "Engineering laboratory work"
+    ],
+    "correctAnswer": "Teacher learning resources"
+  },
+  {
+    "assignment": 11,
+    "question": "NROER stands for:",
+    "options": [
+      "National Research of Engineering",
+      "National Register of Exams",
+      "National Repository of OER",
+      "Network Resource of Education"
+    ],
+    "correctAnswer": "National Repository of OER"
+  },
+  {
+    "assignment": 11,
+    "question": "Virtual classrooms mainly enable:",
+    "options": [
+      "Printed lesson distribution",
+      "Mechanical skill training",
+      "Offline record keeping",
+      "Real-time online teaching"
+    ],
+    "correctAnswer": "Real-time online teaching"
+  },
+  {
+    "assignment": 11,
+    "question": "Speech-to-text technology converts:",
+    "options": [
+      "Images into text",
+      "Text into images",
+      "Spoken words into written text",
+      "Videos into animations"
+    ],
+    "correctAnswer": "Spoken words into written text"
+  },
+  {
+    "assignment": 11,
+    "question": "ICT tools in education mainly help in:",
+    "options": [
+      "Reducing student interaction",
+      "Enhancing teaching-learning process",
+      "Eliminating teachers",
+      "Increasing exam difficulty"
+    ],
+    "correctAnswer": "Enhancing teaching-learning process"
+  },
+  {
+    "assignment": 11,
+    "question": "E-content development involves:",
+    "options": [
+      "Only printed books",
+      "Digital learning materials",
+      "Chalkboard teaching",
+      "Handwritten notes"
+    ],
+    "correctAnswer": "Digital learning materials"
+  },
+  {
+    "assignment": 11,
+    "question": "MOOCs are best described as:",
+    "options": [
+      "Private classroom sessions",
+      "Small offline courses",
+      "Massive open online courses",
+      "School-level training"
+    ],
+    "correctAnswer": "Massive open online courses"
+  },
+  {
+    "assignment": 11,
+    "question": "Smart classrooms use:",
+    "options": [
+      "Only textbooks",
+      "Digital and interactive tools",
+      "Manual registers",
+      "Typewriters"
+    ],
+    "correctAnswer": "Digital and interactive tools"
+  },
+  {
+    "assignment": 11,
+    "question": "Blended learning combines:",
+    "options": [
+      "Only online teaching",
+      "Only offline teaching",
+      "Both online and offline methods",
+      "Only practical training"
+    ],
+    "correctAnswer": "Both online and offline methods"
+  },
+  {
+    "assignment": 11,
+    "question": "Digital literacy refers to:",
+    "options": [
+      "Ability to read books",
+      "Writing skills only",
+      "Using digital tools effectively",
+      "Memorizing facts"
+    ],
+    "correctAnswer": "Using digital tools effectively"
+  },
+  {
+    "assignment": 12,
+    "question": "QuillBot is mainly used for:",
+    "options": [
+      "Video recording tasks",
+      "Paraphrasing written text",
+      "Programming applications",
+      "Computer networking"
+    ],
+    "correctAnswer": "Paraphrasing written text"
+  },
+  {
+    "assignment": 12,
+    "question": "AI research tools like Elicit help in:",
+    "options": [
+      "Video recording tasks",
+      "Hardware repair work",
+      "Literature search tasks",
+      "Audio editing work"
+    ],
+    "correctAnswer": "Literature search tasks"
+  },
+  {
+    "assignment": 12,
+    "question": "Audacity is mainly used for:",
+    "options": [
+      "Audio editing tasks",
+      "Video animation work",
+      "Graphic design work",
+      "Spreadsheet analysis"
+    ],
+    "correctAnswer": "Audio editing tasks"
+  },
+  {
+    "assignment": 12,
+    "question": "Audio annotations help teachers to:",
+    "options": [
+      "Conduct online exams",
+      "Provide audio feedback",
+      "Store digital files",
+      "Repair classroom devices"
+    ],
+    "correctAnswer": "Provide audio feedback"
+  },
+  {
+    "assignment": 12,
+    "question": "LinkedIn is useful for:",
+    "options": [
+      "Audio editing tasks",
+      "Video animation work",
+      "Professional networking",
+      "Software coding work"
+    ],
+    "correctAnswer": "Professional networking"
+  },
+  {
+    "assignment": 12,
+    "question": "Digital citizenship refers to:",
+    "options": [
+      "Responsible online behaviour",
+      "Programming knowledge",
+      "Hardware maintenance skills",
+      "File storage methods"
+    ],
+    "correctAnswer": "Responsible online behaviour"
+  },
+  {
+    "assignment": 12,
+    "question": "Hashtags in social media help in:",
+    "options": [
+      "Hardware repair work",
+      "File storage systems",
+      "Printing documents",
+      "Content discovery online"
+    ],
+    "correctAnswer": "Content discovery online"
+  },
+  {
+    "assignment": 12,
+    "question": "Web 2.0 refers to:",
+    "options": [
+      "Static web pages only",
+      "Offline computer software",
+      "Interactive web applications",
+      "Printed learning materials"
+    ],
+    "correctAnswer": "Static web pages only"
+  },
+  {
+    "assignment": 12,
+    "question": "Wikis are mainly used for:",
+    "options": [
+      "Audio editing tasks",
+      "Collaborative writing work",
+      "Video production work",
+      "Hardware repair work"
+    ],
+    "correctAnswer": "Collaborative writing work"
+  },
+  {
+    "assignment": 12,
+    "question": "Padlet is mainly used for:",
+    "options": [
+      "Collaborative posting boards",
+      "Programming activities on board",
+      "Spreadsheet analysis work",
+      "Hardware repair work"
+    ],
+    "correctAnswer": "Collaborative posting boards"
+  }
+]

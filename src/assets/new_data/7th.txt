@@ -1,0 +1,91 @@
+Week 7 - Assignment 7 (Questions with Correct Answers)
+
+1. Non-formal education is defined as:
+
+A. Organized learning outside schools
+B. Learning through daily experiences
+C. Classroom learning with fixed syllabus
+D. Learning only within institutions
+
+Correct Answer: A - Organized learning outside schools
+
+2. Gamification in education means:
+
+A. Playing games for entertainment
+B. Avoiding tests during lessons
+C. Applying game elements in learning
+D. Using games instead of lessons
+
+Correct Answer: C - Applying game elements in learning
+
+3. One key difference between formal and non-formal education is:
+
+A. Presence of trained teachers
+B. Use of printed textbooks
+C. Methods of evaluation used
+D. Level of learner autonomy
+
+Correct Answer: D - Level of learner autonomy
+
+4. Digital libraries in ODL provide:
+
+A. Storage of printed books
+B. Distribution of printed notes
+C. Access to online resources
+D. Provision of classroom furniture
+
+Correct Answer: C - Access to online resources
+
+5. Platforms such as SWAYAM and Coursera primarily support:
+
+A. Credential-based formal programs
+B. Informal and lifelong learning
+C. Therapeutic support services
+D. Compulsory school education
+
+Correct Answer: B - Informal and lifelong learning
+
+6. A developmental portfolio is best characterized by:
+
+A. Storage of institutional records
+B. Reporting of standardized grades
+C. Presentation of final products
+D. Continuous documentation of progress
+
+Correct Answer: D - Continuous documentation of progress
+
+7. One major advantage of online quizzes in LMS platforms is:
+
+A. Automated feedback and analytics
+B. Requirement of manual grading
+C. Reduction of learner engagement
+D. Limitation of question formats
+
+Correct Answer: A - Automated feedback and analytics
+
+8. Virtual Reality (VR) differs from AR primarily because VR:
+
+A. Depends on printed learning materials
+B. Uses mobile devices for display
+C. Provides fully immersive environments
+D. Cannot be applied in education
+
+Correct Answer: C - Provides fully immersive environments
+
+9. Extended Reality (XR) is a term used to describe:
+
+A. Artificial intelligence platforms
+B. Only virtual reality environments
+C. Only augmented reality systems
+D. Spectrum of immersive technologies
+
+Correct Answer: D - Spectrum of immersive technologies
+
+10. 360 degree immersive video differs from true VR because it:
+
+A. Lacks full environmental immersion
+B. Cannot display motion images
+C. Requires no visual display
+D. Is unrelated to virtual reality
+
+Correct Answer: A - Lacks full environmental immersion

@@ -1,0 +1,109 @@
+Q1
+
+Teachers, curriculum, infrastructure, and funds are classified as:
+
+A. Inputs
+B. Outputs
+C. Feedback
+D. Environment
+
+✅ Official Answer: A — Inputs
+
+Q2
+
+Dale’s Cone of Experience was proposed in:
+
+A. 1930
+B. 1940
+C. 1946
+D. 1956
+
+✅ Official Answer: C — 1946
+
+Q3
+
+Which device provides immersive learning?
+
+A. VR
+B. TV
+C. Radio
+D. Printer
+
+✅ Official Answer: A — VR
+
+Q4
+
+Which of the following is NOT an input in the systems approach?
+
+A. Learners
+B. Content
+C. Evaluation
+D. Resources
+
+✅ Official Answer: C — Evaluation
+
+Q5
+
+Which device is commonly used for real-time polling in classrooms?
+
+A. Tablet
+B. Clicker
+C. Printer
+D. Scanner
+
+✅ Official Answer: B — Clicker
+
+Q6
+
+Teacher training programs like NISHTHA aim at:
+
+A. Student enrolment
+B. Teacher capacity building
+C. Curriculum reduction
+D. School inspection
+
+✅ Official Answer: B — Teacher capacity building
+
+Q7
+
+Instructional methods and administrative functions belong to:
+
+A. Inputs
+B. Outputs
+C. Processes
+D. Environment
+
+✅ Official Answer: C — Processes
+
+Q8
+
+Multi-sensory instruction is based on which theory?
+
+A. Behaviorism
+B. Constructivism
+C. Trial and error
+D. Drill and practice
+
+✅ Official Answer: B — Constructivism
+
+Q9
+
+Subject-specific software like GeoGebra is used for:
+
+A. Language learning
+B. Mathematics learning
+C. Administrative work
+D. Attendance tracking
+
+✅ Official Answer: B — Mathematics learning
+
+Q10
+
+ADDIE model stands for:
+
+A. Analyze, Design, Develop, Implement, Evaluate
+B. Apply, Develop, Design, Implement, Execute
+C. Analyze, Develop, Deliver, Inspect, Execute
+D. Assess, Design, Deliver, Inspect, Evaluate
+
+✅ Official Answer: A — Analyze, Design, Develop, Implement, Evaluate

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Anti-flash: apply saved theme before React renders -->
+  <script>(function(){try{var t=localStorage.getItem('nptel_theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})()</script>
+  <meta charset="UTF-8" />
+  <!-- favicon -->
+  <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+  <!-- preconnect for Google Fonts to improve LCP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO: description, keywords, robots -->
+  <title>NPTEL Prep</title>
+  <meta name="description" content="NPTEL Prep - Practice multiple-choice questions. One question at a time, instant feedback, progress tracking and keyboard controls. Mobile friendly." />
+  <meta name="keywords" content="NPTEL, practice, MCQ, quiz, progress tracker" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph: use the generated OG SVGs -->
+  <meta property="og:title" content="NPTEL Prep" />
+  <meta property="og:description" content="Practice NPTEL-style MCQs with instant feedback, progress tracking and keyboard shortcuts." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-card.svg" />
+  <meta property="og:image:alt" content="NPTEL Prep - Practice MCQs, instant feedback and progress tracking" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="NPTEL Prep" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NPTEL Prep" />
+  <meta name="twitter:description" content="Practice NPTEL-style MCQs with instant feedback, progress tracking and keyboard shortcuts." />
+  <meta name="twitter:image" content="/og-card.svg" />
+  <meta name="twitter:image:alt" content="NPTEL Prep - Practice MCQs" />
+
+  <!-- Provide a dark-image hint (some platforms will use it if supported) -->
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/og-card.svg" />
+
+  <!-- Structured data (WebSite) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NPTEL Prep",
+      "url": "/",
+      "description": "Practice NPTEL multiple-choice questions with instant feedback and progress tracking."
+    }
+  </script>
+
+  <!-- keep font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
